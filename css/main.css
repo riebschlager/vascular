@@ -1,0 +1,20 @@
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#start {
+    font-size: 60px;
+    width: 100%;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 3s;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    text-align: center;
+}
+
+#start.hide {
+    opacity: 0;
+}

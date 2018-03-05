@@ -37,3 +37,10 @@ const sketch = p => {
 };
 
 const myp5 = new p5(sketch);
+
+document.addEventListener('click', onFirstClick);
+
+function onFirstClick() {
+    document.removeEventListener('click', onFirstClick);
+    document.getElementById('start').classList.add('hide');
+}
