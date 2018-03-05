@@ -43,4 +43,5 @@ document.addEventListener('click', onFirstClick);
 function onFirstClick() {
     document.removeEventListener('click', onFirstClick);
     document.getElementById('start').classList.add('hide');
+    document.getElementById('source').classList.add('show');
 }

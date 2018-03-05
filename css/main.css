@@ -18,3 +18,22 @@ body {
 #start.hide {
     opacity: 0;
 }
+
+#source {
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 3s;
+}
+
+#source a {
+    color: #333;
+    text-decoration: none;
+}
+
+#source.show {
+    opacity: 1;
+}
